@@ -1,0 +1,13 @@
+{
+    "pageTitle": "Tablero Kanban Arrastrar y Soltar",
+    "kanbanBoard": "Tablero Kanban",
+    "backlog": "Pendiente",
+    "backlogDesc": "Tareas que aún no han comenzado.",
+    "inProgress": "En Progreso",
+    "progressDesc": "Tareas que están en progreso.",
+    "complete": "Completado",
+    "completeDesc": "Tareas que han sido completadas.",
+    "onHold": "En Espera",
+    "onHoldDesc": "Tareas que están en pausa.",
+    "selectLanguage": "Seleccionar Idioma:"
+}

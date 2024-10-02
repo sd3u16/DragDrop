@@ -1,0 +1,13 @@
+{
+    "pageTitle": "Drag and Drop Kanban",
+    "kanbanBoard": "Kanban Board",
+    "backlog": "Backlog",
+    "backlogDesc": "Tasks that are yet to be started.",
+    "inProgress": "In Progress",
+    "progressDesc": "Tasks currently being worked on.",
+    "complete": "Complete",
+    "completeDesc": "Tasks that have been finished.",
+    "onHold": "On Hold",
+    "onHoldDesc": "Tasks that are paused for now.",
+    "selectLanguage": "Select Language:"
+}

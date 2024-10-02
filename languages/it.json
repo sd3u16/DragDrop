@@ -1,0 +1,13 @@
+{
+    "pageTitle": "Kanban Trascina e Rilascia",
+    "kanbanBoard": "Bacheca Kanban",
+    "backlog": "In Attesa",
+    "backlogDesc": "Attività che devono ancora essere avviate.",
+    "inProgress": "In Corso",
+    "progressDesc": "Attività attualmente in corso.",
+    "complete": "Completato",
+    "completeDesc": "Attività che sono state completate.",
+    "onHold": "In Attesa",
+    "onHoldDesc": "Attività che sono in pausa.",
+    "selectLanguage": "Seleziona Lingua:"
+}
