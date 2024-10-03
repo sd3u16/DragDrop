@@ -62,6 +62,7 @@ header {
   width: 22%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  margin: 10px;
 }
 
 .drag-column h1 {
@@ -92,18 +93,58 @@ header {
   background-color: #ef9a9a;
 }
 
-/* Responsive Design */
+/* Responsive Design for Tablets and Mobiles */
+
+/* For tablets (width 768px and below) */
 @media (max-width: 768px) {
   .drag-container {
       flex-direction: column;
+      align-items: center;
   }
 
   .drag-list {
       flex-direction: column;
+      align-items: center;
   }
 
   .drag-column {
-      width: 100%;
+      width: 80%; /* Make columns bigger on tablet view */
       margin-bottom: 20px;
+  }
+
+  h1.main-title {
+      font-size: 2em; /* Slightly smaller title on tablets */
+  }
+}
+
+/* For small mobile screens (width 480px and below) */
+@media (max-width: 480px) {
+  .drag-column {
+      width: 90%; /* Make columns nearly full-width on mobile */
+  }
+
+  h1.main-title {
+      font-size: 1.8em; /* Even smaller title on mobile */
+  }
+
+  .drag-column h1 {
+      font-size: 1.2em;
+  }
+
+  .drag-column p {
+      font-size: 0.9em;
+  }
+
+  .language-switcher {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .language-switcher label, .language-switcher select {
+      font-size: 14px;
+  }
+
+  .language-switcher select {
+      margin-top: 5px;
   }
 }
